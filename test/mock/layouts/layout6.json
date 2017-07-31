@@ -1,0 +1,607 @@
+{
+  "config": {
+    "id": 637046,
+    "tenantId": 161118,
+    "widgets": {
+      "132": {
+        "linkPageLayoutId": 1819392,
+        "layoutId": 1819398,
+        "parentEntityId": 452,
+        "attributes": {},
+        "uuid": "132",
+        "widgetType": "xsyTab"
+      },
+      "8630248": {
+        "icon": "puzzle",
+        "svgId": 1120,
+        "referItemId": 0,
+        "entityId": 455,
+        "label": "工单",
+        "layoutId": 1819398,
+        "componentId": 123,
+        "childEntityId": 455,
+        "svgColor": "#95b7e6",
+        "linkPageLayoutId": 1819392,
+        "widgetType": "xsyServiceCase",
+        "uuid": "8630248",
+        "parentEntityId": 452,
+        "attributes": {
+          "maxGridRowCount": 10,
+          "expandedFlg": 1,
+          "showMode": "card",
+          "maxGridColCount": 6,
+          "showItem": [
+            {
+              "id": 1073445,
+              "label": "工单编号",
+              "name": "name",
+              "itemType": 9
+            },
+            {
+              "id": 1073447,
+              "label": "所有人",
+              "name": "ownerId",
+              "itemType": 99
+            },
+            {
+              "id": 1073446,
+              "label": "业务类型",
+              "name": "entityType",
+              "itemType": 99
+            },
+            {
+              "id": 1073453,
+              "label": "创建人",
+              "name": "createdBy",
+              "itemType": 99
+            },
+            {
+              "id": 1073454,
+              "label": "创建日期",
+              "name": "createdAt",
+              "itemType": 7
+            },
+            {
+              "id": 1073455,
+              "label": "修改人",
+              "name": "updatedBy",
+              "itemType": 99
+            },
+            {
+              "id": 1073456,
+              "label": "修改日期",
+              "name": "updatedAt",
+              "itemType": 7
+            }
+          ],
+          "maxCardRowCount": 6,
+          "maxCardColCount": 3,
+          "mainItem": {}
+        }
+      },
+      "112": {
+        "attributes": {},
+        "parentEntityId": 452,
+        "widgetType": "xsyWorkflowBar",
+        "componentId": 19
+      },
+      "113": {
+        "parentEntityId": 452,
+        "attributes": {},
+        "widgetType": "xsyApprovalBar",
+        "componentId": 9
+      },
+      "8355868": {
+        "widgetType": "xsyDiv",
+        "uuid": "8355868",
+        "attributes": {
+          "title": "工单"
+        }
+      },
+      "880188": {
+        "linkPageLayoutId": 1819392,
+        "icon": "puzzle",
+        "svgId": 1120,
+        "widgetType": "xsyServiceChatHistory",
+        "entityId": 452,
+        "layoutId": 1819398,
+        "label": "会话记录",
+        "uuid": "880188",
+        "parentEntityId": 452,
+        "attributes": {},
+        "componentId": 121,
+        "svgColor": "#95b7e6"
+      },
+      "13": {
+        "widgetType": "xsyHorizontalLayout",
+        "parentEntityId": 452,
+        "attributes": {
+          "layout": "WIDE:NARROW"
+        }
+      },
+      "1312": {
+        "widgetType": "xsyDiv",
+        "parentEntityId": 452,
+        "attributes": {
+          "title": "${layout.info.title}"
+        }
+      },
+      "1321": {
+        "linkPageLayoutId": 1819392,
+        "widgetType": "xsyCrmFeed",
+        "layoutId": 1819398,
+        "uuid": "1321",
+        "attributes": {},
+        "parentEntityId": 452,
+        "componentId": 4
+      },
+      "1323": {
+        "attributes": {},
+        "parentEntityId": 452,
+        "widgetType": "xsyServiceChatInfo",
+        "componentId": 120
+      },
+      "1322": {
+        "attributes": {},
+        "parentEntityId": 452,
+        "widgetType": "xsyGroupMember",
+        "componentId": 3
+      },
+      "2": {
+        "linkPageLayoutId": 1819392,
+        "widgetType": "xsyServiceChatHeader",
+        "widgetName": "header",
+        "layoutId": 1819398,
+        "uuid": "2",
+        "attributes": {
+          "toolbarNo": 0,
+          "entityId": 452,
+          "tenantId": -101,
+          "titleItem": "name",
+          "focusFlg": 1,
+          "keyItems": [
+            "nickName",
+            "cellPhoneNum",
+            "phoneNum"
+          ]
+        },
+        "parentEntityId": 452,
+        "componentId": 118
+      },
+      "1": {
+        "attributes": {},
+        "parentEntityId": 452,
+        "widgetType": "xsyServiceChatDetail",
+        "widgetName": "detail"
+      },
+      "8529188": {
+        "icon": "puzzle",
+        "svgId": 1120,
+        "referItemId": 0,
+        "entityId": 457,
+        "label": "评价",
+        "layoutId": 1819398,
+        "componentId": 122,
+        "childEntityId": 457,
+        "svgColor": "#95b7e6",
+        "linkPageLayoutId": 1819392,
+        "widgetType": "xsyServiceEvaluation",
+        "parentEntityId": 452,
+        "attributes": {
+          "maxGridRowCount": 10,
+          "expandedFlg": 1,
+          "showMode": "card",
+          "showItem": [],
+          "maxGridColCount": 6,
+          "maxCardRowCount": 6,
+          "showType": "0",
+          "maxCardColCount": 3,
+          "mainItem": {}
+        },
+        "uuid": "8529188"
+      },
+      "8685258": {
+        "widgetType": "xsyDiv",
+        "uuid": "8685258",
+        "attributes": {
+          "title": "会话记录"
+        }
+      },
+      "9732429": {
+        "widgetType": "xsyDiv",
+        "uuid": "9732429",
+        "attributes": {
+          "title": "${layout.crmfeed.title}"
+        }
+      },
+      "9540629": {
+        "widgetType": "xsyDiv",
+        "uuid": "9540629",
+        "attributes": {
+          "title": "${layout.groupmember.title}"
+        }
+      },
+      "131": {
+        "linkPageLayoutId": 1819392,
+        "widgetType": "xsyTab",
+        "widgetName": "leftTab",
+        "layoutId": 1819398,
+        "uuid": "131",
+        "attributes": {},
+        "parentEntityId": 452
+      },
+      "8690558": {
+        "widgetType": "xsyDiv",
+        "attributes": {
+          "title": "评价"
+        },
+        "uuid": "8690558"
+      }
+    },
+    "ownerId": -101,
+    "layout": {
+      "children": {
+        "body": [
+          {
+            "children": {
+              "left": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "uuid": "1323"
+                        }
+                      ],
+                      "uuid": "1312"
+                    },
+                    {
+                      "children": [
+                        {
+                          "uuid": "880188"
+                        }
+                      ],
+                      "uuid": "8685258"
+                    },
+                    {
+                      "children": [
+                        {
+                          "uuid": "8630248"
+                        }
+                      ],
+                      "uuid": "8355868"
+                    }
+                  ],
+                  "uuid": "131"
+                }
+              ],
+              "right": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "uuid": "1321"
+                        }
+                      ],
+                      "uuid": "9732429"
+                    },
+                    {
+                      "children": [
+                        {
+                          "uuid": "1322"
+                        }
+                      ],
+                      "uuid": "9540629"
+                    },
+                    {
+                      "children": [
+                        {
+                          "uuid": "8529188"
+                        }
+                      ],
+                      "uuid": "8690558"
+                    }
+                  ],
+                  "uuid": "132"
+                }
+              ]
+            },
+            "uuid": "13"
+          }
+        ],
+        "head": [
+          {
+            "uuid": "112"
+          },
+          {
+            "uuid": "113"
+          },
+          {
+            "uuid": "2"
+          }
+        ]
+      },
+      "uuid": "1"
+    },
+    "entityId": 452,
+    "layoutId": 1819398,
+    "version": "1.0"
+  },
+  "data": {
+    "common": {
+      "id": 13710,
+      "entityData": {
+        "landingPage": "http://10.40.21.105:8888/index?isDebug=1",
+        "entityType": 458945,
+        "createdBy": 124808,
+        "deleteFlg": 0,
+        "entityId": 452,
+        "createdAt": 1489042243509,
+        "sessionStartTime": 1489042243121,
+        "isActivate": 0,
+        "key": "chat/c3ec5c5ea3126e5da81bd74aaca26646/4b7abecab81d5077a8a9f36606dcc4b2",
+        "updatedBy": 124808,
+        "name": "20170309-0005",
+        "innerGroupId": 606166,
+        "updatedAt": 1489042243509,
+        "accessChannelType": 0,
+        "osType": 0,
+        "tenantId": 161118,
+        "ownerId": 124808,
+        "visitorNickName": "访客837653",
+        "groupId": 606166,
+        "id": 13710,
+        "ip": "10.20.20.112",
+        "visitorId": "21414",
+        "province": "局域网",
+        "lockStatus": 1,
+        "timeStamp": 0,
+        "belongId": 452,
+        "waitedDuration": 0,
+        "browserType": 3
+      },
+      "groupId": 606166,
+      "currEntityName": "service_chat",
+      "userFunctions": {
+        "d": 1,
+        "syncToOpp": 0,
+        "unlock": 1,
+        "e": 1,
+        "c": 1,
+        "lock": 1,
+        "convert": 0,
+        "l": 1,
+        "m": 1,
+        "i": 1,
+        "v": 1,
+        "u": 1,
+        "t": 1
+      },
+      "ownerId": 124808,
+      "belongId": 452,
+      "belongLabel": "聊天",
+      "name": "20170309-0005",
+      "entityType": 458945,
+      "apikey": "service_chat"
+    }
+  },
+  "resource": {
+    "mobileLayout.messages": {
+      "tenantId": -101,
+      "valueCN": "消息",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueJP": "消息",
+      "valueEN": "Messages",
+      "resourceKey": "mobileLayout.messages"
+    },
+    "mobileLayout.prm": {
+      "tenantId": -101,
+      "valueCN": "PRM",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueEN": "PRM",
+      "valueJP": "PRM",
+      "resourceKey": "mobileLayout.prm"
+    },
+    "mobileLayout.home": {
+      "tenantId": -101,
+      "valueCN": "首页",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueEN": "Home",
+      "valueJP": "首页",
+      "resourceKey": "mobileLayout.home"
+    },
+    "mobileLayout.feeds": {
+      "tenantId": -101,
+      "valueCN": "工作圈",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueEN": "Feeds",
+      "valueJP": "工作圈",
+      "resourceKey": "mobileLayout.feeds"
+    },
+    "layout.info.title": {
+      "tenantId": -101,
+      "valueCN": "资料",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueEN": "Info",
+      "valueJP": "詳細",
+      "resourceKey": "layout.info.title"
+    },
+    "mobileLayout.work": {
+      "tenantId": -101,
+      "valueCN": "办公",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueEN": "Work",
+      "valueJP": "办公",
+      "resourceKey": "mobileLayout.work"
+    },
+    "mobileLayout.me": {
+      "tenantId": -101,
+      "valueCN": "我",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueJP": "我",
+      "valueEN": "Me",
+      "resourceKey": "mobileLayout.me"
+    },
+    "layout.payback.title": {
+      "tenantId": -101,
+      "valueCN": "回款",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueEN": "Payback",
+      "valueJP": "払い戻し",
+      "resourceKey": "layout.payback.title"
+    },
+    "layout.crmfeed.title": {
+      "tenantId": -101,
+      "valueCN": "动态",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueEN": "Feed",
+      "valueJP": "Feed",
+      "resourceKey": "layout.crmfeed.title"
+    },
+    "layout.workfeed.title": {
+      "tenantId": -101,
+      "valueCN": "工作圈",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueEN": "Feed",
+      "valueJP": "Feed",
+      "resourceKey": "layout.workfeed.title"
+    },
+    "mobileLayout.dashboard": {
+      "tenantId": -101,
+      "valueCN": "仪表盘",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueEN": "DashBoards",
+      "valueJP": "仪表盘",
+      "resourceKey": "mobileLayout.dashboard"
+    },
+    "layout.dashboard.title": {
+      "tenantId": -101,
+      "valueCN": "仪表盘",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueEN": "Dashboard",
+      "valueJP": "Dashboard",
+      "resourceKey": "layout.dashboard.title"
+    },
+    "layout.refer.title": {
+      "tenantId": -101,
+      "valueCN": "相关",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueEN": "Refer",
+      "valueJP": "関連",
+      "resourceKey": "layout.refer.title"
+    },
+    "layout.blog.attention": {
+      "tenantId": -101,
+      "valueCN": "关注",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueJP": "关注",
+      "valueEN": "Attention",
+      "resourceKey": "layout.blog.attention"
+    },
+    "mobileLayout.crm": {
+      "tenantId": -101,
+      "valueCN": "CRM",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueEN": "CRM",
+      "valueJP": "CRM",
+      "resourceKey": "mobileLayout.crm"
+    },
+    "mobileLayout.job": {
+      "tenantId": -101,
+      "valueCN": "工作",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueJP": "工作",
+      "valueEN": "Work",
+      "resourceKey": "mobileLayout.job"
+    },
+    "mobileLayout.accounts": {
+      "tenantId": -101,
+      "valueCN": "客户",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueEN": "Accounts",
+      "valueJP": "客户",
+      "resourceKey": "mobileLayout.accounts"
+    },
+    "layout.today.title": {
+      "tenantId": -101,
+      "valueCN": "今天",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueEN": "Today",
+      "valueJP": "今日",
+      "resourceKey": "layout.today.title"
+    },
+    "mobileLayout.today": {
+      "tenantId": -101,
+      "valueCN": "今天",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueEN": "Today",
+      "valueJP": "今天",
+      "resourceKey": "mobileLayout.today"
+    },
+    "layout.blog.comment": {
+      "tenantId": -101,
+      "valueCN": "评论",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueJP": "评论",
+      "valueEN": "Comment",
+      "resourceKey": "layout.blog.comment"
+    },
+    "layout.resultdata.title": {
+      "tenantId": -101,
+      "valueCN": "结果数据",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueJP": "結果データ",
+      "valueEN": "ResultData",
+      "resourceKey": "layout.resultdata.title"
+    },
+    "layout.visit.title": {
+      "tenantId": -101,
+      "valueCN": "拜访信息",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueEN": "Visit Info",
+      "valueJP": "",
+      "resourceKey": "layout.visit.title"
+    },
+    "layout.groupmember.title": {
+      "tenantId": -101,
+      "valueCN": "团队成员",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueEN": "Group Member",
+      "valueJP": "チーム メンバー",
+      "resourceKey": "layout.groupmember.title"
+    },
+    "layout.bidinfo.title": {
+      "tenantId": -101,
+      "valueCN": "招标资讯",
+      "category": "layout",
+      "categoryDataId": -101,
+      "valueJP": "入札募集情報",
+      "valueEN": "BidInfo",
+      "resourceKey": "layout.bidinfo.title"
+    }
+  }
+}

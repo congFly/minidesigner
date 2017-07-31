@@ -1,0 +1,68 @@
+.jstree-node {
+    font-size: 12px;
+}
+
+.jstree-node.layout > .jstree-anchor {
+    color: red;
+    font-weight: bolder;
+}
+
+div.jsoneditor-menu {
+    /*background-color: #eee !important;*/
+}
+
+div.jsoneditor-menu .uuid {
+    /*            color: red;
+        font-weight: bolder;*/
+}
+
+.open_btn {
+    width: 100%;
+    height: 300px;
+    background-color: orange;
+    color: yellow;
+    font-size: 30px;
+}
+
+.import_btn {
+    display: none;
+}
+
+.export_btn {
+    display: none;
+    float: right;
+    background-color: red;
+    color: white;
+}
+
+.selectedEditorTitle {
+    background-color: red !important;
+}
+
+.jstree-clicked {
+    background-color: red !important;
+    font-weight: bold
+}
+li.active {
+    cursor: pointer;
+    background-color: #f00;
+}
+
+li span.selected {
+    font-weight: 700;
+}
+#in{
+    width: 500px;
+}
+#search {
+    margin-top: 10px;
+    list-style: none;
+    overflow: auto;
+    height: calc(100% - 42px);
+    padding: 10px;
+}
+.ui-layout-east a.help{
+    float: right;
+    color:yellow;
+    font-size: 20px;
+}

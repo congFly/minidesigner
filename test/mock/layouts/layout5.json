@@ -1,0 +1,270 @@
+{
+  "config": {
+    "entityId": 1,
+    "tenantId": 39312,
+    "id": 10104,
+    "widgets": {
+      "1003": {
+        "widgetType": "xsyContractRefer",
+        "attributes": {}
+      },
+      "1004": {
+        "widgetType": "xsyOrderRefer",
+        "attributes": {}
+      },
+      "132": {
+        "widgetType": "xsyTab",
+        "attributes": {}
+      },
+      "1001": {
+        "attributes": {
+          "maxGridRowCount": 10,
+          "maxCardColCount": 4,
+          "expandedFlg": 1,
+          "showMode": "card",
+          "maxGridColCount": 6,
+          "maxCardRowCount": 6
+        },
+        "parentEntityId": 1,
+        "widgetType": "xsyContactRefer",
+        "componentId": 8,
+        "childEntityId": 2,
+        "referItemId": 0
+      },
+      "1002": {
+        "attributes": {
+          "maxGridRowCount": 10,
+          "maxCardColCount": 4,
+          "expandedFlg": 1,
+          "showMode": "card",
+          "maxGridColCount": 6,
+          "maxCardRowCount": 6
+        },
+        "parentEntityId": 1,
+        "widgetType": "xsyOpportunityRefer",
+        "componentId": 5,
+        "childEntityId": 3,
+        "referItemId": 0
+      },
+      "1007": {
+        "attributes": {
+          "maxGridRowCount": 10,
+          "maxCardColCount": 4,
+          "expandedFlg": 1,
+          "showMode": "card",
+          "maxGridColCount": 6,
+          "maxCardRowCount": 6
+        },
+        "parentEntityId": 1,
+        "widgetType": "xsyScheduleRefer",
+        "componentId": 6,
+        "childEntityId": 31,
+        "referItemId": 0
+      },
+      "1008": {
+        "attributes": {
+          "maxCardColCount": 4,
+          "expandedFlg": 1,
+          "showMode": "card",
+          "maxCardRowCount": 6
+        },
+        "parentEntityId": 1,
+        "widgetType": "xsyApprovalRefer",
+        "componentId": 11
+      },
+      "1005": {
+        "widgetType": "xsyCaseRefer",
+        "attributes": {}
+      },
+      "1009": {
+        "attributes": {
+          "maxCardColCount": 4,
+          "expandedFlg": 1,
+          "showMode": "card",
+          "maxCardRowCount": 6
+        },
+        "parentEntityId": 1,
+        "widgetType": "xsyRescenterRefer",
+        "componentId": 10
+      },
+      "13": {
+        "widgetType": "xsyHorizontalLayout",
+        "attributes": {
+          "layout": "WIDE:NARROW"
+        }
+      },
+      "1321": {
+        "widgetType": "xsyCrmFeed",
+        "componentId": 4,
+        "attributes": {
+          "title": "动态"
+        }
+      },
+      "1312": {
+        "widgetType": "xsyDiv",
+        "attributes": {
+          "title": "资料"
+        }
+      },
+      "1311": {
+        "widgetType": "xsyReferContainer",
+        "attributes": {
+          "title": "相关"
+        }
+      },
+      "1323": {
+        "widgetType": "xsyAccountInfo",
+        "attributes": {}
+      },
+      "1322": {
+        "widgetType": "xsyGroupMember",
+        "componentId": 3,
+        "attributes": {
+          "title": "团队成员"
+        }
+      },
+      "2": {
+        "attributes": {
+          "entityId": 1,
+          "toolbarNo": 2,
+          "tenantId": -101,
+          "titleItem": "account.accountName",
+          "focusFlg": 1,
+          "keyItems": [
+            "account.entityType",
+            "account.dbcRelation1",
+            "account.phone",
+            "account.highSeaId",
+            "account.ownerId"
+          ]
+        },
+        "widgetType": "xsyAccountHeader",
+        "componentId": 1,
+        "widgetName": "header"
+      },
+      "1": {
+        "widgetType": "xsyAccountDetail",
+        "widgetName": "detail",
+        "attributes": {}
+      },
+      "131": {
+        "widgetType": "xsyTab",
+        "widgetName": "leftTab",
+        "attributes": {}
+      },
+      "2001": {
+        "attributes": {
+          "maxGridRowCount": 5,
+          "maxCardColCount": 4,
+          "expandedFlg": 1,
+          "showMode": "grid",
+          "maxGridColCount": 6,
+          "maxCardRowCount": 2
+        },
+        "parentEntityId": 1,
+        "widgetType": "xsyCustomizeRefer",
+        "componentId": 2,
+        "childEntityId": 347014,
+        "referItemId": 609415
+      },
+      "2000": {
+        "attributes": {
+          "maxGridRowCount": 5,
+          "maxCardColCount": 4,
+          "expandedFlg": 1,
+          "showMode": "grid",
+          "maxGridColCount": 6,
+          "maxCardRowCount": 2
+        },
+        "parentEntityId": 1,
+        "widgetType": "xsyCustomizeRefer",
+        "componentId": 2,
+        "childEntityId": 347014,
+        "referItemId": 609415
+      }
+    },
+    "layout": {
+      "children": {
+        "body": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "uuid": "1001"
+                      },
+                      {
+                        "uuid": "1002"
+                      },
+                      {
+                        "uuid": "1003"
+                      },
+                      {
+                        "uuid": "1004"
+                      },
+                      {
+                        "uuid": "1005"
+                      },
+                      {
+                        "uuid": "1007"
+                      },
+                      {
+                        "uuid": "1008"
+                      },
+                      {
+                        "uuid": "1009"
+                      },
+                      {
+                        "uuid": "2000"
+                      },
+                      {
+                        "uuid": "2001"
+                      }
+                    ],
+                    "uuid": "1311"
+                  },
+                  {
+                    "children": [
+                      {
+                        "uuid": "1323"
+                      }
+                    ],
+                    "uuid": "1312"
+                  }
+                ],
+                "uuid": "131"
+              },
+              {
+                "children": [
+                  {
+                    "uuid": "1321"
+                  },
+                  {
+                    "uuid": "1322"
+                  }
+                ],
+                "uuid": "132"
+              }
+            ],
+            "uuid": "13"
+          }
+        ],
+        "head": [
+          {
+            "uuid": "2"
+          }
+        ]
+      },
+      "uuid": "1"
+    }
+  },
+  "data": {
+    "common": {
+      "groupId": 206841,
+      "ownerId": 64931,
+      "belongId": 1
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>前端布局设计器</title>
+</head>
+<body>
+<div id="centerPanel" class="ui-layout-center">
+    <button id="open_btn" class="open_btn">打开</button>
+    <button id="import_btn" class="import_btn" style="">引入Layout</button>
+    <button id="export_btn" class="export_btn" style="">导出！</button>
+    <!-- <img src="/doc/study/minidesigner/preview.png"/> -->
+</div>
+<div id="northPanel" class="ui-layout-north"></div>
+<div id="southPanel" class="ui-layout-south"></div>
+<div id="eastPanel" class="ui-layout-east">
+</div>
+<div class="ui-layout-west" id="tree"></div>
+<script>
+    document.write('<script src="./deploy/commons.js?' + Math.random() + '"><\/script>');
+    document.write('<script src="./deploy/index.js?' + Math.random() + '"><\/script>');
+</script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+{
+  "config": {
+    "tenantId": 39312,
+    "id": 12102,
+    "entityId": 347013,
+    "widgets": {
+      "132": {
+        "widgetType": "xsyTab",
+        "attributes": {}
+      },
+      "2004": {
+        "attributes": {
+          "maxGridRowCount": 5,
+          "maxCardColCount": 4,
+          "expandedFlg": 1,
+          "showMode": "grid",
+          "maxGridColCount": 6,
+          "maxCardRowCount": 2
+        },
+        "parentEntityId": 347013,
+        "widgetType": "xsyCustomizeRefer",
+        "componentId": 2,
+        "childEntityId": 347401,
+        "referItemId": 609414
+      },
+      "2002": {
+        "attributes": {
+          "maxGridRowCount": 5,
+          "maxCardColCount": 4,
+          "expandedFlg": 1,
+          "showMode": "grid",
+          "maxGridColCount": 6,
+          "maxCardRowCount": 2
+        },
+        "parentEntityId": 347013,
+        "widgetType": "xsyOpportunityRefer",
+        "componentId": 5,
+        "childEntityId": 3,
+        "referItemId": 571979
+      },
+      "2003": {
+        "attributes": {
+          "maxGridRowCount": 5,
+          "maxCardColCount": 4,
+          "expandedFlg": 1,
+          "showMode": "grid",
+          "maxGridColCount": 6,
+          "maxCardRowCount": 2
+        },
+        "parentEntityId": 347013,
+        "widgetType": "xsyOrderRefer",
+        "componentId": 13,
+        "childEntityId": 35,
+        "referItemId": 571980
+      },
+      "1009": {
+        "attributes": {
+          "maxCardColCount": 4,
+          "expandedFlg": 1,
+          "showMode": "card",
+          "maxCardRowCount": 6
+        },
+        "parentEntityId": 1,
+        "widgetType": "xsyRescenterRefer",
+        "componentId": 10
+      },
+      "1321": {
+        "widgetType": "xsyCrmFeed",
+        "componentId": 4,
+        "attributes": {
+          "title": "动态"
+        }
+      },
+      "1312": {
+        "widgetType": "xsyDiv",
+        "attributes": {
+          "title": "资料"
+        }
+      },
+      "13": {
+        "widgetType": "xsyHorizontalLayout",
+        "attributes": {
+          "layout": "WIDE:NARROW"
+        }
+      },
+      "1311": {
+        "widgetType": "xsyReferContainer",
+        "attributes": {
+          "title": "相关"
+        }
+      },
+      "1323": {
+        "widgetType": "xsyAccountInfo",
+        "attributes": {}
+      },
+      "1322": {
+        "widgetType": "xsyGroupMember",
+        "componentId": 3,
+        "attributes": {
+          "title": "团队成员"
+        }
+      },
+      "2": {
+        "attributes": {
+          "entityId": 1,
+          "toolbarNo": 2,
+          "tenantId": -101,
+          "titleItem": "name",
+          "focusFlg": 1,
+          "keyItems": [
+            "name",
+            "entityType",
+            "ownerId"
+          ]
+        },
+        "widgetType": "xsyCustomizeHeader",
+        "componentId": 1,
+        "widgetName": "header"
+      },
+      "1": {
+        "widgetType": "xsyCustomizeDetail",
+        "widgetName": "detail",
+        "attributes": {}
+      },
+      "131": {
+        "widgetType": "xsyTab",
+        "widgetName": "leftTab",
+        "attributes": {}
+      },
+      "2001": {
+        "attributes": {
+          "maxGridRowCount": 5,
+          "maxCardColCount": 4,
+          "expandedFlg": 1,
+          "showMode": "grid",
+          "maxGridColCount": 6,
+          "maxCardRowCount": 2
+        },
+        "parentEntityId": 347013,
+        "widgetType": "xsyAccountRefer",
+        "componentId": 15,
+        "childEntityId": 1,
+        "referItemId": 571978
+      }
+    },
+    "ownerId": 64931,
+    "layout": {
+      "children": {
+        "body": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "uuid": "1009"
+                      },
+                      {
+                        "uuid": "2000"
+                      },
+                      {
+                        "uuid": "2001"
+                      },
+                      {
+                        "uuid": "2002"
+                      },
+                      {
+                        "uuid": "2003"
+                      },
+                      {
+                        "uuid": "2004"
+                      }
+                    ],
+                    "uuid": "1311"
+                  },
+                  {
+                    "children": [
+                      {
+                        "uuid": "1323"
+                      }
+                    ],
+                    "uuid": "1312"
+                  }
+                ],
+                "uuid": "131"
+              },
+              {
+                "children": [
+                  {
+                    "uuid": "1321"
+                  },
+                  {
+                    "uuid": "1322"
+                  }
+                ],
+                "uuid": "132"
+              }
+            ],
+            "uuid": "13"
+          }
+        ],
+        "head": [
+          {
+            "uuid": "2"
+          }
+        ]
+      },
+      "uuid": "1"
+    }
+  },
+  "data": {
+    "common": {
+      "groupId": 206845,
+      "ownerId": 64931,
+      "belongId": 347013,
+      "name": "雪佛兰55"
+    }
+  }
+}

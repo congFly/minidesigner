@@ -1,0 +1,60 @@
+{
+  "config": {
+    "id": 141902,
+    "tenantId": 10201,
+    "widgets": {
+      "1": {
+        "widgetType": "xsyIndexPage",
+        "attributes": {
+            "columnSplit": [8,4]
+        }
+      },
+      "1401": {
+        "componentId": 34,
+        "widgetType": "xsyIndexFeed",
+        "attributes": {}
+      },
+      "1402": {
+        "componentId": 35,
+        "widgetType": "xsyIndexSchedule",
+        "attributes": {}
+      },
+      "1403": {
+        "componentId": 36,
+        "widgetType": "xsyIndexDashboard",
+        "attributes": {}
+      }
+    },
+    "ownerId": -101,
+    "layout": {
+      "children": {
+        "row0col0": [],
+        "row1col0": [
+          {
+            "uuid": "1401"
+          }
+        ],
+        "row1col1": [
+          {
+            "uuid": "1402"
+          },
+          {
+            "uuid": "1403"
+          }
+        ]
+      },
+      "uuid": "1"
+    },
+    "entityId": 1,
+    "layoutId": 369404
+  },
+  "data": {
+    "common": {
+      "id": 359213,
+      "groupId": 461325,
+      "ownerId": 20016,
+      "belongId": 1,
+      "name": "0711001"
+    }
+  }
+}

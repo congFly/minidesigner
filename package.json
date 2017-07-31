@@ -1,0 +1,23 @@
+{
+  "name": "minidesigner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "jquery": "2.2.4",
+    "jquery-ui": "^1.12.1",
+    "jsoneditor": "^5.5.11",
+    "jstree": "^3.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

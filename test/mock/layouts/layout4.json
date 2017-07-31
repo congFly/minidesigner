@@ -1,0 +1,149 @@
+{
+  "config": {
+    "id": 187702,
+    "tenantId": 10201,
+    "layoutLabel": "prm首页布局",
+    "widgets": {
+      "1": {
+        "widgetType": "xsyPrmIndexPage",
+        "attributes": {}
+      },
+      "2": {
+        "designerConfig": {},
+        "widgetType": "xsyPrmIndexBanner",
+        "label": "横幅",
+        "attributes": {
+          "height": "280"
+        }
+      },
+      "3": {
+        "widgetType": "xsyPrmIndexObjectList",
+        "attributes": {
+          "entityId": "15",
+          "componenttitle": "test",
+          "showtitle": "1",
+          "itemIdList": [
+            {
+              "id": "34981"
+            },
+            {
+              "id": "34982"
+            },
+            {
+              "id": "34983"
+            },
+            {
+              "id": "34984"
+            },
+            {
+              "id": "34985"
+            },
+            {
+              "id": "34986"
+            },
+            {
+              "id": "34987"
+            },
+            {
+              "id": "67234876"
+            },
+            {
+              "id": "67234877"
+            },
+            {
+              "id": "67234878"
+            },
+            {
+              "id": "34989"
+            }
+          ],
+          "dataSort": "desc",
+          "pagesize": "10",
+          "ranktype": "1"
+        }
+      },
+      "5": {
+        "label": "新闻",
+        "attributes": {},
+        "widgetType": "xsyPrmIndexHeadLine"
+      },
+      "6": {
+        "widgetType": "xsyPrmIndexQuickEntry",
+        "attributes": {
+          "entries": [
+            {
+              "type": "new",
+              "entityTypes": [],
+              "businessName": "客户",
+              "name": "新建客户",
+              "svgId": "1",
+              "belongId": "1"
+            },
+            {
+              "type": "new",
+              "entityTypes": [],
+              "businessName": "联系人",
+              "name": "新建联系人",
+              "svgId": "2",
+              "belongId": "2"
+            },
+            {
+              "type": "list",
+              "condition": {},
+              "name": "商机",
+              "svgId": "3",
+              "belongId": "3"
+            },
+            {
+              "type": "new",
+              "entityTypes": [],
+              "businessName": "产品",
+              "name": "新建产品",
+              "svgId": "4",
+              "belongId": "4"
+            }
+          ]
+        }
+      },
+      "7": {
+        "widgetType": "xsyPrmIndexFeed",
+        "attributes": {}
+      }
+    },
+    "ownerId": -101,
+    "layout": {
+      "children": {
+        "row0col0": [
+          {
+            "uuid": "2"
+          }
+        ],
+        "row1col0": [],
+        "row1col1": [
+          {
+            "uuid": "3"
+          },
+          {
+            "uuid": "5"
+          }
+        ],
+        "row1col2": [
+          {
+            "uuid": "6"
+          },
+          {
+            "uuid": "7"
+          }
+        ],
+        "row1col3": []
+      },
+      "uuid": "1"
+    },
+    "entityId": -101,
+    "layoutId": 1249018,
+    "version": "1.0"
+  },
+  "data": {
+    "common": {}
+  }
+}
